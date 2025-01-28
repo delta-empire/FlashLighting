@@ -3,17 +3,22 @@
 
     <item
         android:id="@+id/flashlight"
-        android:title="FlashLight"
+        android:title="@string/flashlight"
         android:icon="@android:drawable/ic_delete"/>
 
     <item
         android:id="@+id/navigation"
-        android:title="Navigation"
+        android:title="@string/navigation"
         android:icon="@android:drawable/ic_delete"/>
 
     <item
         android:id="@+id/morze"
-        android:title="Morze"
+        android:title="@string/morze"
+        android:icon="@android:drawable/ic_delete"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
         android:icon="@android:drawable/ic_delete"/>
 
 </menu>

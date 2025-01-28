@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">FlashLighting</string>
+
+    <string name="longitude">Долгота</string>
+    <string name="latitude">Широта</string>
+    <string name="height">Высота</string>
+    <string name="address">Адрес</string>
+
+    <string name="auto_on">Автоматическое включение</string>
+    <string name="auto_on_info">Включить фонарик при запуске</string>
+
+    <string name="flashlight">Фонарик</string>
+    <string name="navigation">Координаты</string>
+    <string name="morze">Морзе</string>
+    <string name="settings">Настройки</string>
 </resources>

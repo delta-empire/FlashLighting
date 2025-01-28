@@ -37,7 +37,7 @@ public class NavigationActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.navigation);
 
-        tvLattitude = findViewById(R.id.tvLattitude);
+        tvLattitude = findViewById(R.id.tvLatitude);
         tvLongitude = findViewById(R.id.tvLongitude);
         tvHeight = findViewById(R.id.tvHeight);
         tvAddress = findViewById(R.id.tvAddress);

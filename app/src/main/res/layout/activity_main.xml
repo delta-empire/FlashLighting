@@ -17,10 +17,12 @@
         android:id="@+id/bottom_nav"/>
 
     <TextView
-        android:id="@+id/tvLattitude"
+        android:id="@+id/tvLatitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_marginTop="24dp"
+        android:text="@string/latitude"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,25 +30,71 @@
         android:id="@+id/tvLongitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLattitude" />
+        android:layout_marginTop="24dp"
+        android:text="@string/longitude"
+        app:layout_constraintEnd_toEndOf="@+id/tvLatitudeShow"
+        app:layout_constraintStart_toStartOf="@+id/tvLatitudeShow"
+        app:layout_constraintTop_toBottomOf="@+id/tvLatitudeShow" />
 
     <TextView
         android:id="@+id/tvHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLongitude" />
+        android:layout_marginTop="24dp"
+        android:text="@string/height"
+        app:layout_constraintEnd_toEndOf="@+id/tvLongitudeShow"
+        app:layout_constraintStart_toStartOf="@+id/tvLongitudeShow"
+        app:layout_constraintTop_toBottomOf="@+id/tvLongitudeShow" />
 
     <TextView
         android:id="@+id/tvAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:text="@string/address"
+        app:layout_constraintEnd_toEndOf="@+id/tvHeightShow"
+        app:layout_constraintStart_toStartOf="@+id/tvHeightShow"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeightShow" />
+
+    <TextView
+        android:id="@+id/tvLatitudeShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/latitude"
+        app:layout_constraintEnd_toEndOf="@+id/tvLatitude"
+        app:layout_constraintStart_toStartOf="@+id/tvLatitude"
+        app:layout_constraintTop_toBottomOf="@+id/tvLatitude" />
+
+    <TextView
+        android:id="@+id/tvLongitudeShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/longitude"
+        app:layout_constraintEnd_toEndOf="@+id/tvLongitude"
+        app:layout_constraintStart_toStartOf="@+id/tvLongitude"
+        app:layout_constraintTop_toBottomOf="@+id/tvLongitude" />
+
+    <TextView
+        android:id="@+id/tvHeightShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/height"
+        app:layout_constraintEnd_toEndOf="@+id/tvHeight"
+        app:layout_constraintStart_toStartOf="@+id/tvHeight"
         app:layout_constraintTop_toBottomOf="@+id/tvHeight" />
+
+    <TextView
+        android:id="@+id/tvAddressShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/address"
+        app:layout_constraintEnd_toEndOf="@+id/tvAddress"
+        app:layout_constraintStart_toStartOf="@+id/tvAddress"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

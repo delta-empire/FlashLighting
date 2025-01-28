@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashLighting</string>
+
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="height">Height</string>
+    <string name="address">Address</string>
+
+    <string name="auto_on">Automaticly on</string>
+    <string name="auto_on_info">Start flashlight beafore launch</string>
+
+    <string name="flashlight">Flashlight</string>
+    <string name="navigation">Navigation</string>
+    <string name="morze">Morze</string>
+    <string name="settings">Settings</string>
+</resources>
