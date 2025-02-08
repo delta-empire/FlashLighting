@@ -4,21 +4,21 @@
     <item
         android:id="@+id/flashlight"
         android:title="@string/flashlight"
-        android:icon="@android:drawable/ic_delete"/>
+        android:icon="@drawable/baseline_flashlight_on_24"/>
 
     <item
         android:id="@+id/navigation"
         android:title="@string/navigation"
-        android:icon="@android:drawable/ic_delete"/>
+        android:icon="@drawable/baseline_my_location_24"/>
 
     <item
         android:id="@+id/morze"
         android:title="@string/morze"
-        android:icon="@android:drawable/ic_delete"/>
+        android:icon="@drawable/baseline_e_mobiledata_24"/>
 
     <item
         android:id="@+id/settings"
         android:title="@string/settings"
-        android:icon="@android:drawable/ic_delete"/>
+        android:icon="@drawable/baseline_settings_24"/>
 
 </menu>
